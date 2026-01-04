@@ -6,7 +6,7 @@ It is designed as an educational "clean-room" implementation, avoiding black-box
 
 ## Features
 
-* **Finite Fields** ($GF(p)$)**:** Full support for modular arithmetic (addition, subtraction, multiplication, division via Extended Euclidean Algorithm).
+* **Finite Fields (GF(p)):** Full support for modular arithmetic (addition, subtraction, multiplication, division via Extended Euclidean Algorithm).
 * **Elliptic Curves:** Weierstrass form implementation ($y^2 = x^3 + ax + b$).
 * **Group Laws:** Point addition, doubling, and scalar multiplication using the Double-and-Add algorithm.
 * **Pure Python:** Zero external dependencies.
