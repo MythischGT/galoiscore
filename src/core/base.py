@@ -35,9 +35,8 @@ class FieldElementBase(ABC):
     def __eq__(self, other: object) -> bool:
         pass
 
-    @abstractmethod
     def __ne__(self, other: object) -> bool:
-        pass
+        return not self.__eq__(other)
 
     @abstractmethod
     def inverse(self) -> F:
