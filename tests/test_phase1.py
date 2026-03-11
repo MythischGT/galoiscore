@@ -1,12 +1,3 @@
-"""
-galois_core test suite — unittest version.
-
-Run from galoiscore/ (with src/ on PYTHONPATH):
-    python -m unittest tests.test_phase1 -v
-
-Or directly:
-    python tests/test_phase1.py
-"""
 import os
 import sys
 import unittest
