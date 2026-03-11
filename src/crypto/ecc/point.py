@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import Union
-from src.core.prime import PrimeField, PrimeFieldElement
+from core.prime import PrimeField, PrimeFieldElement
 
 class Point:
     __slots__ = ("x", "y", "a", "b")
