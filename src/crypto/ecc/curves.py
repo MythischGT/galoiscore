@@ -106,8 +106,8 @@ P_384 = CurveParameters(
 # Curve registry for easy lookup
 CURVE_REGISTRY = {
     "secp256k1": SEC_P256K1,
-    "P-256": P_256,
-    "P-384": P_384,
+    "p256": P_256,
+    "p384": P_384,
 }  
 
 def get_curve(name: str) -> CurveParameters:
